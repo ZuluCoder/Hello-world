@@ -1,0 +1,28 @@
+@model Plant
+<div>
+    <h1>Plant Details</h1>
+    <div class="table">
+        <table>
+            <tr>
+                <td>Plant Name</td>
+                <td>@Model.PlantName</td>
+            </tr>
+            <tr>
+                <td>Plant Price</td>
+                <td>@Model.PlantPrice</td>
+            </tr>
+            <tr>
+                <td>Plant Life Span</td>
+                <td>@Model.PlantLifeSpan</td>
+            </tr>
+            <tr>
+                <td>Plant Size</td>
+                <td>@Model.PlantSize</td>
+            </tr>
+            <tr>
+                <td>Plant Description</td>
+                <td>@Model.PlantDescriptions</td>
+            </tr>
+        </table>
+    </div>
+</div>
